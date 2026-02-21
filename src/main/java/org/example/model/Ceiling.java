@@ -3,6 +3,7 @@ package org.example.model;
 import org.example.model.enums.PaintColor;
 
 public class Ceiling {
+
     private int height;
     private PaintColor color;
 

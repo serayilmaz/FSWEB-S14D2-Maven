@@ -1,18 +1,19 @@
 package org.example.model;
 
 public class Bed {
+
     private String style;
     private int pillows;
     private int height;
     private int sheets;
-    private int quilt;
+    private int quilts; // ✅ test bunu arıyor
 
-    public Bed(String style, int pillows, int height, int sheets, int quilt) {
+    public Bed(String style, int pillows, int height, int sheets, int quilts) {
         this.style = style;
         this.pillows = pillows;
         this.height = height;
         this.sheets = sheets;
-        this.quilt = quilt;
+        this.quilts = quilts;
     }
 
     public void make() {
@@ -36,6 +37,6 @@ public class Bed {
     }
 
     public int getQuilts() {
-        return quilt;
+        return quilts;
     }
 }

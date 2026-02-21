@@ -3,6 +3,7 @@ package org.example.model;
 import org.example.model.enums.PaintColor;
 
 public class Carpet {
+
     private int width;
     private int height;
     private PaintColor color;
